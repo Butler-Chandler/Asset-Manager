@@ -29,3 +29,4 @@ build/
 
 ### VS Code ###
 .vscode/
+manager-bff/src/main/resources/application.properties
