@@ -1,4 +1,4 @@
-package com.ceb.manager.domain;
+package com.ceb.manager.controllers.response;
 
 import java.util.ArrayList;
 import java.util.List;
