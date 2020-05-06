@@ -1,5 +1,7 @@
 package com.ceb.manager.controllers;
 
+import javax.transaction.Transactional;
+
 import com.ceb.manager.controllers.response.RestResponse;
 import com.ceb.manager.dao.UserDAO;
 import com.ceb.manager.domain.User;
