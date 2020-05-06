@@ -1,7 +1,7 @@
 package com.ceb.manager.controllers;
 
+import com.ceb.manager.controllers.response.RestResponse;
 import com.ceb.manager.dao.UserDAO;
-import com.ceb.manager.domain.RestResponse;
 import com.ceb.manager.domain.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
