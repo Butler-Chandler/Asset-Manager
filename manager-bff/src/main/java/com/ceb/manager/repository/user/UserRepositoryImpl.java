@@ -1,4 +1,4 @@
-package com.ceb.manager.repository;
+package com.ceb.manager.repository.user;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

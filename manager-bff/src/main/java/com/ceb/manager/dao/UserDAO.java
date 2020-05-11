@@ -2,7 +2,7 @@ package com.ceb.manager.dao;
 
 import com.ceb.manager.domain.User;
 import com.ceb.manager.repository.CustomBaseRepository;
-import com.ceb.manager.repository.UserRepository;
+import com.ceb.manager.repository.user.UserRepository;
 
 import org.springframework.stereotype.Component;
 

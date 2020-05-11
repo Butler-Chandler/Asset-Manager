@@ -1,7 +1,7 @@
-package com.ceb.manager.repository;
+package com.ceb.manager.repository.user;
 
 import com.ceb.manager.domain.User;
 
-public interface UserRepository{
+public interface UserRepository {
     User findByEmail(String email);
 }
