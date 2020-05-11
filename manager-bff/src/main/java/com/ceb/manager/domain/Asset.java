@@ -18,21 +18,19 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 public class Asset extends BaseEntity implements Serializable{
     private static final long serialVersionUID = 8663428335679686522L;
 
-    @ManyToOne
-    private AssetType assetType;
-
+    private Long assetTypeId;
     private String location;
     private Date warrantyExpiration;
     private String manufacturer;
     private BigDecimal price;
     private String description;
 
-    public AssetType getAssetType() {
-        return this.assetType;
+    public Long getAssetTypeId() {
+        return this.assetTypeId;
     }
 
-    public void setAssetType(AssetType assetType) {
-        this.assetType = assetType;
+    public void setAssetTypeId(Long assetTypeId) {
+        this.assetTypeId = assetTypeId;
     }
 
     public String getLocation() {
@@ -76,7 +74,7 @@ public class Asset extends BaseEntity implements Serializable{
     }
 
     public void deepCopy(Asset newAssetData){
-        this.assetType = newAssetData.getAssetType();
+        this.assetTypeId = newAssetData.getAssetTypeId();
         this.location = newAssetData.getLocation();
         this.warrantyExpiration = newAssetData.getWarrantyExpiration();
         this.manufacturer = newAssetData.getManufacturer();
