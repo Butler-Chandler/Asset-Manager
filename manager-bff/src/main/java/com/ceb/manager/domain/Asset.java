@@ -6,7 +6,6 @@ import java.util.Date;
 
 import javax.persistence.*;
 
-import com.ceb.manager.domain.types.AssetType;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
