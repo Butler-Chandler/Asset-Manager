@@ -29,4 +29,5 @@ build/
 
 ### VS Code ###
 .vscode/
-manager-bff/src/main/resources/application.properties
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
