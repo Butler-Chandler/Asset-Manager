@@ -1,0 +1,33 @@
+<div class="card">
+    <div class="card-body">
+        <div class="form-group">
+            <label class="col-md-4">Description</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="col-md-4">Location</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="col-md-4">Manufactuer</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label class="col-md-4">Price</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <igx-calendar #warrenty (onSelection)="saveDate($event)"></igx-calendar>
+        </div>
+        <div class="form-group">
+            <label class="col-md-4">Asset Type</label>
+            <select formControlName="assetType" class="form-control">
+                <option disabled>Select Asset Type</option>
+                <option *ngFor="let type of types">{{type}}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Create Asset</button>
+        </div>
+    </div>
+</div>
